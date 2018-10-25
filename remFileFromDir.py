@@ -1,4 +1,5 @@
 #/usr/bin/python
+#to remove file from dir
 
 import os
 import sys
