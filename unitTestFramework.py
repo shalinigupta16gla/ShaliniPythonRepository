@@ -5,6 +5,7 @@ class unitTestFramework(unittest.TestCase):
 
     def test_upper(self):
         self.assertEqual('foo'.upper(),'FOO')
+        print("inside test_upper")
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
