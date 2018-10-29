@@ -9,6 +9,7 @@ class unitTestFramework(unittest.TestCase):
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
+        print("inside test_isupper")
 
     def test_split(self):
         s = "hello world"
