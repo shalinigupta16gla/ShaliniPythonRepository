@@ -2,6 +2,7 @@ import unittest
 import os
 import time
 
+print(time.ctime(time.time()))
 class unitTestFramework(unittest.TestCase):
 
     def test_upper(self):
