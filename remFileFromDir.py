@@ -6,7 +6,12 @@ import sys
 import time
 import copy
 
+
+list1 =[1,2,3]
 print(time.ctime(time.time()))
+list1 = [1,2,3]
+list2 = copy.copy(list1)
+print(list2)
 os.chdir(r"C:\Users\Desktop")
 dir_content = os.listdir()
 print("directory contents are: %s"%dir_content)
