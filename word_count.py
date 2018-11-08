@@ -7,6 +7,7 @@ Created on Tue Jun 12 21:46:20 2018
 
 import os
 import sys
+import time
 
 string1 = "if shalini gupta is a mad girl and shalini gupta is also a good girl"
 list1 = string1.split(" ")
