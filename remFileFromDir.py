@@ -4,6 +4,7 @@
 import os
 import sys
 import time
+import copy
 
 print(time.ctime(time.time()))
 os.chdir(r"C:\Users\Desktop")
