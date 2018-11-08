@@ -3,7 +3,9 @@
 
 import os
 import sys
+import time
 
+print(time.ctime(time.time()))
 os.chdir(r"C:\Users\Desktop")
 dir_content = os.listdir()
 print("directory contents are: %s"%dir_content)
