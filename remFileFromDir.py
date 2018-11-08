@@ -6,6 +6,8 @@ import sys
 import time
 import copy
 
+
+list1 =[1,2,3]
 print(time.ctime(time.time()))
 list1 = [1,2,3]
 list2 = copy.copy(list1)
