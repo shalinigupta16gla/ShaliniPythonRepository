@@ -6,6 +6,7 @@ import subprocess
 
 print(time.ctime(time.time()))
 print(time.ctime(time.time()))
+print("updated unitTestFramework.py")
 class unitTestFramework(unittest.TestCase):
 
     def test_upper(self):
