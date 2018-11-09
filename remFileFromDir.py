@@ -8,7 +8,7 @@ import copy
 import random
 import subprocess
 
-
+print(random.randrange())
 print(random.random())
 list1 =[1,2,3]
 print(time.ctime(time.time()))
