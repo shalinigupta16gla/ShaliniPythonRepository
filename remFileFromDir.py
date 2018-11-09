@@ -9,6 +9,7 @@ import random
 import subprocess
 import datetime
 
+print(random.choice([1,2,3]))
 print(random.randrange())
 print(random.random())
 list1 =[1,2,3]
