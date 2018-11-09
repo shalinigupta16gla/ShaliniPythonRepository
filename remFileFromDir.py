@@ -9,6 +9,7 @@ import random
 import subprocess
 
 
+print(random.random())
 list1 =[1,2,3]
 print(time.ctime(time.time()))
 list1 = [1,2,3]
